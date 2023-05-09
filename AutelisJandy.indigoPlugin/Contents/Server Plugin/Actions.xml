@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<Actions>
+	<Action id="actionAux">
+		<Name>Aux Device</Name>
+		<CallbackMethod>action_aux</CallbackMethod>
+		<ConfigUI>
+			<Field id="AuxDev" type="menu">
+				<Label>Aux Device:</Label>
+				<List class="self" method="get_aux_list"/>
+			</Field>
+			<Field id="setting" type="menu">
+				<Label>Action:</Label>
+				<List class="self" method="get_mode_list"/>
+			</Field>
+		</ConfigUI>
+	</Action>
+	<Action id="actionPump">
+		<Name>Pumps</Name>
+		<CallbackMethod>action_pump</CallbackMethod>
+		<ConfigUI>
+			<Field id="PumpDev" type="menu">
+				<Label>Pump Device:</Label>
+				<List class="self" method="get_pump_list"/>
+			</Field>
+			<Field id="setting" type="menu">
+				<Label>Action:</Label>
+				<List class="self" method="get_mode_list"/>
+			</Field>
+		</ConfigUI>
+	</Action>
+	<Action id="actionHeat">
+		<Name>Heat</Name>
+		<CallbackMethod>action_heat</CallbackMethod>
+		<ConfigUI>
+			<Field id="HeatDev" type="menu">
+				<Label>Heat Device:</Label>
+				<List class="self" method="get_heat_list"/>
+			</Field>
+			<Field id="setting" type="menu">
+				<Label>Action:</Label>
+				<List class="self" method="get_mode_list"/>
+			</Field>
+		</ConfigUI>
+	</Action>
+	<Action id="actionSetpoints">
+		<Name>Setpoints</Name>
+		<CallbackMethod>action_setpoints</CallbackMethod>
+		<ConfigUI>
+			<Field id="SetpointDev" type="menu">
+				<Label>Setpoint Device:</Label>
+				<List class="self" method="get_setpoint_list"/>
+			</Field>
+			<Field id="setting" type="menu">
+				<Label>Action:</Label>
+				<List class="self" method="get_sp_mode_list"/>
+			</Field>
+			<Field id="temp" type="textfield" visibleBindingId="setting" visibleBindingValue="Set">
+				<Label>Set Temperature:</Label>
+			</Field>
+		</ConfigUI>
+	</Action>
+	<Action id="actionCleaner">
+		<Name>Pool Cleaner</Name>
+		<CallbackMethod>action_cleaner</CallbackMethod>
+		<ConfigUI>
+			<Field id="setting" type="menu">
+				<Label>Action:</Label>
+				<List class="self" method="get_mode_list"/>
+			</Field>
+		</ConfigUI>
+	</Action>
+	<Action id="sep1"/>
+	<Action id="actionCommand">
+		<Name>Jandy Command</Name>
+		<CallbackMethod>action_command</CallbackMethod>
+		<ConfigUI>
+			<Field id="setting" type="textfield">
+				<Label>Command:</Label>
+			</Field>
+		</ConfigUI>
+	</Action>
+	<Action id="actionKeypadPgUp">
+		<Name>Keypad: Page Up</Name>
+		<CallbackMethod>action_keypad_pg_up</CallbackMethod>
+	</Action>
+	<Action id="actionKeypadPgDn">
+		<Name>Keypad: Page Down</Name>
+		<CallbackMethod>action_keypad_pg_dn</CallbackMethod>
+	</Action>
+	<Action id="actionKeypadBack">
+		<Name>Keypad: Back</Name>
+		<CallbackMethod>action_keypad_back</CallbackMethod>
+	</Action>
+	<Action id="actionKeypadSelect">
+		<Name>Keypad: Select</Name>
+		<CallbackMethod>action_keypad_select</CallbackMethod>
+	</Action>
+	<Action id="actionKeypadUp">
+		<Name>Keypad: Up</Name>
+		<CallbackMethod>action_keypad_up</CallbackMethod>
+	</Action>
+	<Action id="actionKeypadDn">
+		<Name>Keypad: Down</Name>
+		<CallbackMethod>action_keypad_dn</CallbackMethod>
+	</Action>
+	<Action id="sep2"/>
+	<Action id="actionAquaPureSet">
+		<Name>AquaPure Set</Name>
+		<CallbackMethod>action_aqua_pure_set</CallbackMethod>
+		<ConfigUI>
+			<Field id="AquaPureDev" type="menu">
+				<Label>AquaPure Device:</Label>
+				<List class="self" method="get_aqua_pure_dev_list"/>
+			</Field>
+			<Field id="setting" type="menu">
+				<Label>Action:</Label>
+				<List class="self" method="get_aqua_pure_list"/>
+			</Field>
+		</ConfigUI>
+	</Action>
+	<Action id="actionAquaPureBoost">
+		<Name>AquaPure Boost</Name>
+		<CallbackMethod>action_aqua_pure_boost</CallbackMethod>
+	</Action>
+	<Action id="sep3"/>
+	<Action id="actionVSPSpeedSet">
+		<Name>VSP Speed Set</Name>
+		<CallbackMethod>action_vsp_speed_set</CallbackMethod>
+		<ConfigUI>
+			<Field id="VSPDev" type="menu">
+				<Label>VSP Device:</Label>
+				<List class="self" method="get_vsp_dev_list"/>
+				<CallbackMethod>save_vsp_dev</CallbackMethod>
+			</Field>
+			<Field id="setting" type="menu">
+				<Label>Speed:</Label>
+				<List class="self" method="get_vsp_label_list" dynamicReload="yes"/>
+			</Field>
+		</ConfigUI>
+	</Action>
+	<Action id="sep4"/>
+	<Action id="actionColorLightsSet">
+		<Name>Color Lights Set</Name>
+		<CallbackMethod>action_color_lights_set</CallbackMethod>
+		<ConfigUI>
+			<Field id="setting" type="menu">
+				<Label>Color:</Label>
+				<List class="self" method="get_color_lights_list"/>
+			</Field>
+		</ConfigUI>
+	</Action>
+</Actions>
+

@@ -1,0 +1,250 @@
+<?xml version="1.0"?>
+<PluginConfig>
+	<Field id="infoLabel" type="label">
+		<Label>Autelis Jandy Plugin</Label>
+	</Field>
+	<Field id="simpleSeparator1" type="separator"/>
+	<Field id="socketIP" type="textfield" tooltip="The IP address of the socket e.g. 192.168.0.248">
+        <Label>IP:</Label>
+	</Field>
+	<Field id="socketPort" type="textfield" defaultvalue="6000" tooltip="The port number of the socket e.g. 6000">
+        <Label>Port:</Label>
+	</Field>
+	<Field id="simpleSeparator2" type="separator"/>
+	<Field id="enableUDP" type="checkbox" tooltip="This enables UDP listening for the Autelis controller.">
+		<Label>Enable UDP:</Label>
+	</Field>
+	<Field id="UDPPort" type="textfield" defaultValue="7890" tooltip="The port number of the socket e.g. 7890">
+        <Label>UDP Port:</Label>
+	</Field>
+	<Field id="simpleSeparator3" type="separator"/>
+	<Field id="KeypadUpdates" type="checkbox" tooltip="Check box if you would like keypad updates sent to the plugin">
+		<Label>Keypad Updates:</Label>
+		<Description>(required for keypad actions)</Description>
+	</Field>
+	<Field id="AquaPure" type="checkbox" tooltip="Check box if you have a Jandy AquaPure installed.">
+		<Label>AquaPure Installed:</Label>
+	</Field>
+	<Field id="simpleSeparator4" type="separator"/>
+	<Field id="VSP1" type="checkbox" tooltip="Check box if you have a supported variable speed pump 1 installed.">
+		<Label>VSP1 Installed:</Label>
+	</Field>
+	<Field id="VSP1_S1" tooltip="VSP1 Speed 1 Label." type="textfield" visibleBindingId="VSP1"
+		   visibleBindingValue="true">
+		<Label>VSP1 Speed Label 1:</Label>
+	</Field>
+	<Field id="VSP1_S2" tooltip="VSP1 Speed 2 Label." type="textfield" visibleBindingId="VSP1"
+		   visibleBindingValue="true">
+		<Label>VSP1 Speed Label 2:</Label>
+	</Field>
+	<Field id="VSP1_S3" tooltip="VSP1 Speed 3 Label." type="textfield" visibleBindingId="VSP1"
+		   visibleBindingValue="true">
+		<Label>VSP1 Speed Label 3:</Label>
+	</Field>
+	<Field id="VSP1_S4" type="textfield" tooltip="VSP1 Speed 4 Label." visibleBindingId="VSP1"
+		   visibleBindingValue="true">
+		<Label>VSP1 Speed Label 4:</Label>
+	</Field>
+	<Field id="VSP1_S5" type="textfield" tooltip="VSP1 Speed 5 Label." visibleBindingId="VSP1"
+		   visibleBindingValue="true">
+		<Label>VSP1 Speed Label 5:</Label>
+	</Field>
+	<Field id="VSP1_S6" type="textfield" tooltip="VSP1 Speed 6 Label." visibleBindingId="VSP1"
+		   visibleBindingValue="true">
+		<Label>VSP1 Speed Label 6:</Label>
+	</Field>
+	<Field id="VSP1_S7" type="textfield" tooltip="VSP1 Speed 7 Label." visibleBindingId="VSP1"
+		   visibleBindingValue="true">
+		<Label>VSP1 Speed Label 7:</Label>
+	</Field>
+	<Field id="VSP1_S8" type="textfield" tooltip="VSP1 Speed 8 Label." visibleBindingId="VSP1"
+		   visibleBindingValue="true">
+		<Label>VSP1 Speed Label 8:</Label>
+	</Field>
+	<Field id="VSP2" type="checkbox" tooltip="Check box if you have a supported variable speed pump 2 installed.">
+		<Label>VSP2 Installed:</Label>
+	</Field>
+	<Field id="VSP2_S1" type="textfield" tooltip="VSP2 Speed 1 Label." visibleBindingId="VSP2"
+		   visibleBindingValue="true">
+		<Label>VSP2 Speed Label 1:</Label>
+	</Field>
+	<Field id="VSP2_S2" type="textfield" tooltip="VSP2 Speed 2 Label." visibleBindingId="VSP2"
+		   visibleBindingValue="true">
+		<Label>VSP2 Speed Label 2:</Label>
+	</Field>
+	<Field id="VSP2_S3" type="textfield" tooltip="VSP2 Speed 3 Label." visibleBindingId="VSP2"
+		   visibleBindingValue="true">
+		<Label>VSP2 Speed Label 3:</Label>
+	</Field>
+	<Field id="VSP2_S4" type="textfield" tooltip="VSP2 Speed 4 Label." visibleBindingId="VSP2"
+		   visibleBindingValue="true">
+		<Label>VSP2 Speed Label 4:</Label>
+	</Field>
+	<Field id="VSP2_S5" type="textfield" tooltip="VSP2 Speed 5 Label." visibleBindingId="VSP2"
+		   visibleBindingValue="true">
+		<Label>VSP2 Speed Label 5:</Label>
+	</Field>
+	<Field id="VSP2_S6" type="textfield" tooltip="VSP2 Speed 6 Label." visibleBindingId="VSP2"
+		   visibleBindingValue="true">
+		<Label>VSP2 Speed Label 6:</Label>
+	</Field>
+	<Field id="VSP2_S7" type="textfield" tooltip="VSP2 Speed 7 Label." visibleBindingId="VSP2"
+		   visibleBindingValue="true">
+		<Label>VSP2 Speed Label 7:</Label>
+	</Field>
+	<Field id="VSP2_S8" type="textfield" tooltip="VSP2 Speed 8 Label." visibleBindingId="VSP2"
+		   visibleBindingValue="true">
+		<Label>VSP2 Speed Label 8:</Label>
+	</Field>
+	<Field id="VSP3" type="checkbox" tooltip="Check box if you have a supported variable speed pump 3 installed.">
+		<Label>VSP3 Installed:</Label>
+	</Field>
+	<Field id="VSP3_S1" type="textfield" tooltip="VSP3 Speed 1 Label." visibleBindingId="VSP3"
+		   visibleBindingValue="true">
+		<Label>VSP3 Speed Label 1:</Label>
+	</Field>
+	<Field id="VSP3_S2" type="textfield" tooltip="VSP3 Speed 2 Label." visibleBindingId="VSP3"
+		   visibleBindingValue="true">
+		<Label>VSP3 Speed Label 2:</Label>
+	</Field>
+	<Field id="VSP3_S3" type="textfield" tooltip="VSP3 Speed 3 Label." visibleBindingId="VSP3"
+		   visibleBindingValue="true">
+		<Label>VSP3 Speed Label 3:</Label>
+	</Field>
+	<Field id="VSP3_S4" type="textfield" tooltip="VSP3 Speed 4 Label." visibleBindingId="VSP3"
+		   visibleBindingValue="true">
+		<Label>VSP3 Speed Label 4:</Label>
+	</Field>
+	<Field id="VSP3_S5" type="textfield" tooltip="VSP3 Speed 5 Label." visibleBindingId="VSP3"
+		   visibleBindingValue="true">
+		<Label>VSP3 Speed Label 5:</Label>
+	</Field>
+	<Field id="VSP3_S6" type="textfield" tooltip="VSP3 Speed 6 Label." visibleBindingId="VSP3"
+		   visibleBindingValue="true">
+		<Label>VSP3 Speed Label 6:</Label>
+	</Field>
+	<Field id="VSP3_S7" type="textfield" tooltip="VSP3 Speed 7 Label." visibleBindingId="VSP3"
+		   visibleBindingValue="true">
+		<Label>VSP3 Speed Label 7:</Label>
+	</Field>
+	<Field id="VSP3_S8" type="textfield" tooltip="VSP3 Speed 8 Label." visibleBindingId="VSP3"
+		   visibleBindingValue="true">
+		<Label>VSP3 Speed Label 8:</Label>
+	</Field>
+	<Field id="VSP4" type="checkbox" tooltip="Check box if you have a supported variable speed pump 4 installed.">
+		<Label>VSP4 Installed:</Label>
+	</Field>
+	<Field id="VSP4_S1" type="textfield" tooltip="VSP4 Speed 1 Label." visibleBindingId="VSP4"
+		   visibleBindingValue="true">
+		<Label>VSP4 Speed Label 1:</Label>
+	</Field>
+	<Field id="VSP4_S2" type="textfield" tooltip="VSP4 Speed 2 Label." visibleBindingId="VSP4"
+		   visibleBindingValue="true">
+		<Label>VSP4 Speed Label 2:</Label>
+	</Field>
+	<Field id="VSP4_S3" type="textfield" tooltip="VSP4 Speed 3 Label." visibleBindingId="VSP4"
+		   visibleBindingValue="true">
+		<Label>VSP4 Speed Label 3:</Label>
+	</Field>
+	<Field id="VSP4_S4" type="textfield" tooltip="VSP4 Speed 4 Label." visibleBindingId="VSP4"
+		   visibleBindingValue="true">
+		<Label>VSP4 Speed Label 4:</Label>
+	</Field>
+	<Field id="VSP4_S5" type="textfield" tooltip="VSP4 Speed 5 Label." visibleBindingId="VSP4"
+		   visibleBindingValue="true">
+		<Label>VSP4 Speed Label 5:</Label>
+	</Field>
+	<Field id="VSP4_S6" type="textfield" tooltip="VSP4 Speed 6 Label." visibleBindingId="VSP4"
+		   visibleBindingValue="true">
+		<Label>VSP4 Speed Label 6:</Label>
+	</Field>
+	<Field id="VSP4_S7" type="textfield" tooltip="VSP4 Speed 7 Label." visibleBindingId="VSP4"
+		   visibleBindingValue="true">
+		<Label>VSP4 Speed Label 7:</Label>
+	</Field>
+	<Field id="VSP4_S8" type="textfield" tooltip="VSP4 Speed 8 Label." visibleBindingId="VSP4"
+		   visibleBindingValue="true">
+		<Label>VSP4 Speed Label 8:</Label>
+	</Field>
+	<Field id="simpleSeparator5" type="separator"/>
+	<Field type="checkbox" id="ColorLights" tooltip="Check box if you have Jandy LED Color Lights installed.">
+		<Label>Color Lights Installed:</Label>
+	</Field>
+	<Field id="CLDev" type="menu" tooltip="Color Lights Aux Device." visibleBindingId="ColorLights"
+		   visibleBindingValue="true">
+		<Label>Color Lights Aux Device:</Label>
+		<List class="self" filter="" method="get_aux_devices" dynamicReload="true"/>
+	</Field>
+	<Field id="simpleSeparator6" type="separator"/>
+	<Field id="numberOfAux" type="menu" defaultValue="06" tooltip="The number of Jandy auxiliary devices.">
+		<Label>Number of Aux Devices:</Label>
+		<List class="self" filter="" method="get_aux_devices" dynamicReload="true"/>
+	</Field>
+	<Field id="nameOfAux1" type="textfield" tooltip="The name that you want Indigo to refer to for this device.">
+        <Label>Aux 1 Name:</Label>
+	</Field>
+	<Field id="nameOfAux2" type="textfield" tooltip="The name that you want Indigo to refer to for this device."
+		   visibleBindingId="numberOfAux" visibleBindingValue="02,03,04,05,06,07,08,09,10,11,12,13,14,15">
+        <Label>Aux 2 Name:</Label>
+	</Field>
+	<Field id="nameOfAux3" type="textfield" tooltip="The name that you want Indigo to refer to for this device."
+		   visibleBindingId="numberOfAux"
+		   visibleBindingValue="03,04,05,06,07,08,09,10,11,12,13,14,15">
+		<Label>Aux 3 Name:</Label>
+	</Field>
+	<Field id="nameOfAux4" type="textfield" tooltip="The name that you want Indigo to refer to for this device."
+		   visibleBindingId="numberOfAux" visibleBindingValue="04,05,06,07,08,09,10,11,12,13,14,15">
+        <Label>Aux 4 Name:</Label>
+	</Field>
+	<Field id="nameOfAux5" type="textfield" tooltip="The name that you want Indigo to refer to for this device."
+		   visibleBindingId="numberOfAux"
+		   visibleBindingValue="05,06,07,08,09,10,11,12,13,14,15">
+        <Label>Aux 5 Name:</Label>
+	</Field>
+	<Field id="nameOfAux6" type="textfield" tooltip="The name that you want Indigo to refer to for this device."
+		   visibleBindingId="numberOfAux" visibleBindingValue="06,07,08,09,10,11,12,13,14,15">
+        <Label>Aux 6 Name:</Label>
+	</Field>
+	<Field id="nameOfAux7" type="textfield" tooltip="The name that you want Indigo to refer to for this device."
+		   visibleBindingId="numberOfAux" visibleBindingValue="07,08,09,10,11,12,13,14,15">
+        <Label>Aux 7 Name:</Label>
+	</Field>
+	<Field id="nameOfAux8" type="textfield" tooltip="The name that you want Indigo to refer to for this device."
+		   visibleBindingId="numberOfAux" visibleBindingValue="08,09,10,11,12,13,14,15">
+        <Label>Aux 8 Name:</Label>
+	</Field>
+	<Field id="nameOfAux9" type="textfield" tooltip="The name that you want Indigo to refer to for this device."
+		   visibleBindingId="numberOfAux" visibleBindingValue="09,10,11,12,13,14,15">
+        <Label>Aux 9 Name:</Label>
+	</Field>
+	<Field id="nameOfAux10" type="textfield" tooltip="The name that you want Indigo to refer to for this device."
+		   visibleBindingId="numberOfAux" visibleBindingValue="10,11,12,13,14,15">
+        <Label>Aux 10 Name:</Label>
+	</Field>
+	<Field id="nameOfAux11" type="textfield" tooltip="The name that you want Indigo to refer to for this device."
+		   visibleBindingId="numberOfAux" visibleBindingValue="11,12,13,14,15">
+        <Label>Aux 11 Name:</Label>
+	</Field>
+	<Field id="nameOfAux12" type="textfield" tooltip="The name that you want Indigo to refer to for this device."
+		   visibleBindingId="numberOfAux" visibleBindingValue="12,13,14,15">
+        <Label>Aux 12 Name:</Label>
+	</Field>
+	<Field id="nameOfAux13" type="textfield" tooltip="The name that you want Indigo to refer to for this device."
+		   visibleBindingId="numberOfAux" visibleBindingValue="13,14,15">
+        <Label>Aux 13 Name:</Label>
+	</Field>
+	<Field id="nameOfAux14" type="textfield" tooltip="The name that you want Indigo to refer to for this device."
+		   visibleBindingId="numberOfAux" visibleBindingValue="14,15">
+        <Label>Aux 14 Name:</Label>
+	</Field>
+	<Field id="nameOfAux15" type="textfield" tooltip="The name that you want Indigo to refer to for this device."
+		   visibleBindingId="numberOfAux" visibleBindingValue="15">
+        <Label>Aux 15 Name:</Label>
+	</Field>
+	<Field id="simpleSeparator8" type="separator"/>
+	<Field id="showDebugInLog" type="checkbox"
+		   tooltip="This enables lots of debugging messages in the Indigo Event Log.">
+		<Label>Enable debugging:</Label>
+		<Description>(not recommended)</Description>
+	</Field>
+</PluginConfig>

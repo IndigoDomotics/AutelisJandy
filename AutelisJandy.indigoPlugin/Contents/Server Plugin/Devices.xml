@@ -1,0 +1,410 @@
+<?xml version="1.0"?>
+<Devices>
+	<Device id="AutelisController" type="custom">
+		<Name>Autelis Controller</Name>
+		<ConfigUI>
+			<Field id="address" type="textfield">
+				<Label>IP Address:</Label>
+			</Field>
+		</ConfigUI>
+		<UiDisplayStateId>PUMP</UiDisplayStateId>
+		<States>
+			<State id="AUX1">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Aux 1</TriggerLabel>
+				<ControlPageLabel>Aux 1</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="AUX2">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Aux 2</TriggerLabel>
+				<ControlPageLabel>Aux 2</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="AUX3">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Aux 3</TriggerLabel>
+				<ControlPageLabel>Aux 3</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="AUX4">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Aux 4</TriggerLabel>
+				<ControlPageLabel>Aux 4</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="AUX5">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Aux 5</TriggerLabel>
+				<ControlPageLabel>Aux 5</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="AUX6">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Aux 6</TriggerLabel>
+				<ControlPageLabel>Aux 6</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="AUX7">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Aux 7</TriggerLabel>
+				<ControlPageLabel>Aux 7</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="AUX8">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Aux 8</TriggerLabel>
+				<ControlPageLabel>Aux 8</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="AUX9">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Aux 9</TriggerLabel>
+				<ControlPageLabel>Aux 9</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="AUX10">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Aux 10</TriggerLabel>
+				<ControlPageLabel>Aux 10</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="AUX11">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Aux 11</TriggerLabel>
+				<ControlPageLabel>Aux 11</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="AUX12">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Aux 12</TriggerLabel>
+				<ControlPageLabel>Aux 12</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="AUX13">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Aux 13</TriggerLabel>
+				<ControlPageLabel>Aux 13</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="AUX14">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Aux 14</TriggerLabel>
+				<ControlPageLabel>Aux 14</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="AUX15">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Aux 15</TriggerLabel>
+				<ControlPageLabel>Aux 15</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="AIRTMP">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Air Temp</TriggerLabel>
+				<ControlPageLabel>Air Temp</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="KP_00">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Keypad Line 0</TriggerLabel>
+				<ControlPageLabel>Keypad Line 0</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="KP_01">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Keypad Line 1</TriggerLabel>
+				<ControlPageLabel>Keypad Line 1</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="KP_02">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Keypad Line 2</TriggerLabel>
+				<ControlPageLabel>Keypad Line 2</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="KP_03">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Keypad Line 3</TriggerLabel>
+				<ControlPageLabel>Keypad Line 3</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="KP_04">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Keypad Line 4</TriggerLabel>
+				<ControlPageLabel>Keypad Line 4</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="KP_05">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Keypad Line 5</TriggerLabel>
+				<ControlPageLabel>Keypad Line 5</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="KP_06">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Keypad Line 6</TriggerLabel>
+				<ControlPageLabel>Keypad Line 6</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="KP_07">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Keypad Line 7</TriggerLabel>
+				<ControlPageLabel>Keypad Line 7</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="KP_08">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Keypad Line 8</TriggerLabel>
+				<ControlPageLabel>Keypad Line 8</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="KP_09">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Keypad Line 9</TriggerLabel>
+				<ControlPageLabel>Keypad Line 9</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="KP_10">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Keypad Line 10</TriggerLabel>
+				<ControlPageLabel>Keypad Line 10</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="KP_11">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Keypad Line 11</TriggerLabel>
+				<ControlPageLabel>Keypad Line 11</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="POOLHT">
+				<ValueType boolType="OnOff">Boolean</ValueType>
+				<TriggerLabel>Pool Heater</TriggerLabel>
+				<ControlPageLabel>Pool Heater</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="POOLHT2">
+				<ValueType boolType="OnOff">Boolean</ValueType>
+				<TriggerLabel>Pool Heater 2</TriggerLabel>
+				<ControlPageLabel>Pool Heater 2</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="POOLSP">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Pool Setpoint</TriggerLabel>
+				<ControlPageLabel>Pool Setpoint</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="POOLSP2">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Pool Setpoint 2</TriggerLabel>
+				<ControlPageLabel>Pool Setpoint 2</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="POOLTMP">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Pool Temp</TriggerLabel>
+				<ControlPageLabel>Pool Temp</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="POOLTMP2">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Pool Temp 2</TriggerLabel>
+				<ControlPageLabel>Pool Temp 2</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="ORPLVL1">
+				<ValueType>String</ValueType>
+				<TriggerLabel>ORP Level</TriggerLabel>
+				<ControlPageLabel>ORP Level</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="PHLVL1">
+				<ValueType>String</ValueType>
+				<TriggerLabel>PH Level</TriggerLabel>
+				<ControlPageLabel>PH Level</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="PUMP">
+				<ValueType boolType="OnOff">Boolean</ValueType>
+				<TriggerLabel>Pump</TriggerLabel>
+				<ControlPageLabel>Pump</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="PUMPLO">
+				<ValueType boolType="OnOff">Boolean</ValueType>
+				<TriggerLabel>Low Speed Pump</TriggerLabel>
+				<ControlPageLabel>Low Speed Pump</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="SPA">
+				<ValueType boolType="OnOff">Boolean</ValueType>
+				<TriggerLabel>Spa Pump</TriggerLabel>
+				<ControlPageLabel>Spa Pump</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="SPAHT">
+				<ValueType boolType="OnOff">Boolean</ValueType>
+				<TriggerLabel>Spa Heater</TriggerLabel>
+				<ControlPageLabel>Spa Heater</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="SPASP">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Spa Setpoint</TriggerLabel>
+				<ControlPageLabel>Spa Setpoint</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="SPATMP">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Spa Temp</TriggerLabel>
+				<ControlPageLabel>Spa Temp</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="SOLHT">
+				<ValueType boolType="OnOff">Boolean</ValueType>
+				<TriggerLabel>Solar Heater</TriggerLabel>
+				<ControlPageLabel>Solar Heater</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="SOLTMP">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Solar Temp</TriggerLabel>
+				<ControlPageLabel>Solar Temp</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="OPMODE">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Operating Mode</TriggerLabel>
+				<ControlPageLabel>Operating Mode</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="WFALL">
+				<ValueType boolType="OnOff">Boolean</ValueType>
+				<TriggerLabel>Water Fall</TriggerLabel>
+				<ControlPageLabel>Water Fall</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="CLEAN">
+				<ValueType boolType="OnOff">Boolean</ValueType>
+				<TriggerLabel>Pool Cleaner</TriggerLabel>
+				<ControlPageLabel>Pool Cleaner</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="VBAT">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Battery Voltage</TriggerLabel>
+				<ControlPageLabel>Battery Voltage</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="OPTIONS">
+				<ValueType>String</ValueType>
+				<TriggerLabel>System Options</TriggerLabel>
+				<ControlPageLabel>System Options</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="MODEL">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Model</TriggerLabel>
+				<ControlPageLabel>Model</ControlPageLabel>
+				<ControlPageLabelPrefix>Model</ControlPageLabelPrefix>
+			</State>
+			<State id="UNITS">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Units</TriggerLabel>
+				<ControlPageLabel>Units</ControlPageLabel>
+				<ControlPageLabelPrefix>Model</ControlPageLabelPrefix>
+			</State>
+			<State id="P1_NAME">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Pump 1 Name</TriggerLabel>
+				<ControlPageLabel>Pump 1 Name</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="P1_RPM">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Pump 1 RPM</TriggerLabel>
+				<ControlPageLabel>Pump 1 RPM</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="P1_WATTS">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Pump 1 WATTS</TriggerLabel>
+				<ControlPageLabel>Pump 1 WATTS</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="P1_STATUS">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Pump 1 STATUS</TriggerLabel>
+				<ControlPageLabel>Pump 1 STATUS</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="SWCPOOL">
+				<ValueType>String</ValueType>
+				<TriggerLabel>AquaPure SETTING</TriggerLabel>
+				<ControlPageLabel>AquaPure SETTING</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="SALTPOOL">
+				<ValueType>String</ValueType>
+				<TriggerLabel>AquaPure SALT</TriggerLabel>
+				<ControlPageLabel>AquaPure SALT</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="AP_STATUS">
+				<ValueType>String</ValueType>
+				<TriggerLabel>AquaPure STATUS</TriggerLabel>
+				<ControlPageLabel>AquaPure STATUS</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="ORPFEED1">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Purelink STATUS</TriggerLabel>
+				<ControlPageLabel>Purelink STATUS</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="SWCSPA">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Saltwater Chlorinator</TriggerLabel>
+				<ControlPageLabel>Saltwater Chlorinator</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="SALTSPA">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Saltwater Spa</TriggerLabel>
+				<ControlPageLabel>Saltwater Spa</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="HTPMP">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Heat Pump</TriggerLabel>
+				<ControlPageLabel>Heat Pump</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="VSP1">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Variable Speed Pump 1</TriggerLabel>
+				<ControlPageLabel>Variable Speed Pump 1</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="VSP2">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Variable Speed Pump 2</TriggerLabel>
+				<ControlPageLabel>Variable Speed Pump 2</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="VSP3">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Variable Speed Pump 3</TriggerLabel>
+				<ControlPageLabel>Variable Speed Pump 3</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+			<State id="VSP4">
+				<ValueType>String</ValueType>
+				<TriggerLabel>Variable Speed Pump 4</TriggerLabel>
+				<ControlPageLabel>Variable Speed Pump 4</ControlPageLabel>
+				<ControlPageLabelPrefix>State is</ControlPageLabelPrefix>
+			</State>
+		</States>
+	</Device>
+</Devices>
