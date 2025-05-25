@@ -455,20 +455,25 @@ class Autelis(object):
         global KPS
         global HLL
 
-        KP_HL = str(KP_HL)
-        while KP_HL.find("EQUIPMENT ON/OFF") == -1 and \
-                KP_HL.find("ONETOUCH  ON/OFF") == -1 and \
-                KP_HL.find("MENU / HELP") == -1 and \
-                KP_HL.find("MORE ONETOUCH") == -1 and \
-                KP_HL.find("SYSTEM") == -1:
-            self.send_message("#KEYPAD=2")
+        # DaveL17 Users were encountering a None Type error when trying to set pump speed. I've added a simple way to
+        # avoid evaluating the variable if the value is None, and some logging to see if the variable is ever populated.
+        # It'll have to come from somewhere else because nothing is passed to this method.
+        if KP_HL is not None:
+            my_logger.debug(KP_HL)
+            KP_HL = str(KP_HL)
+            while KP_HL.find("EQUIPMENT ON/OFF") == -1 and \
+                    KP_HL.find("ONETOUCH  ON/OFF") == -1 and \
+                    KP_HL.find("MENU / HELP") == -1 and \
+                    KP_HL.find("MORE ONETOUCH") == -1 and \
+                    KP_HL.find("SYSTEM") == -1:
+                self.send_message("#KEYPAD=2")
 
-        if KP_HL.find("MORE ONETOUCH") != -1:
-            for _ in ["#KEYPAD=5", "#KEYPAD=4"]:
-                self.send_message(_)
+            if KP_HL.find("MORE ONETOUCH") != -1:
+                for _ in ["#KEYPAD=5", "#KEYPAD=4"]:
+                    self.send_message(_)
 
-        elif KP_HL.find("SYSTEM") != -1:
-            self.send_message("#KEYPAD=4")
+            elif KP_HL.find("SYSTEM") != -1:
+                self.send_message("#KEYPAD=4")
 
     def nav_kp_equip(self):
         """ PLACEHOLDER """
