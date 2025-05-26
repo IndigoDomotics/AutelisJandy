@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>PluginVersion</key>
-	<string>2024.1.0</string>
+	<string>2024.1.1</string>
 	<key>ServerApiVersion</key>
 	<string>3.0</string>
 	<key>IwsApiVersion</key>
@@ -18,8 +18,7 @@
 	<array>
 		<dict>
 			<key>CFBundleURLName</key>
-			<!--  TODO: update the following link to plugin store entry, or GitHub (etc.).-->
-			<string>https://www.indigodomo.com/pluginstore/</string>
+			<string>https://github.com/IndigoDomotics/AutelisJandy</string>
 		</dict>
 	</array>
 </dict>

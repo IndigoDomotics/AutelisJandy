@@ -11,8 +11,8 @@
 from Autelis import Autelis
 import logging
 try:
-    import indigo
-    import pydevd
+    import indigo  # noqa
+    # import pydevd
 except ImportError:
     pass
 

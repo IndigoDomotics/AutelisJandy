@@ -9,9 +9,10 @@
 import binascii
 import logging
 import re
-from socket import *
+# from socket import *
+from socket import AF_INET, SOCK_STREAM, socket
 try:
-    import indigo
+    import indigo  # noqa
 except ImportError:
     pass
 
@@ -47,7 +48,7 @@ my_logger = logging.getLogger("Plugin")
 
 
 # class Autelis(object):  # FIXME: delete if working.  DaveL17
-class Autelis(object):
+class Autelis:
     """ PLACEHOLDER """
 
     # class init & del
@@ -738,7 +739,7 @@ class Autelis(object):
         A question mark (?) designates a query for the state of the equipment or setting specified by the command word.
 
         An equals sign (=) requires a value to which the equipment specified by the command word will be set. Equipment
-        supported values: 1,0,TRUE,FALSE,T,F (case insensitive) Setpoint supported values: valid integer temperature
+        supported values: 1,0,TRUE,FALSE,T,F (case-insensitive) Setpoint supported values: valid integer temperature
         value.
 
         A plus sign (+) causes a step-up in the value of the equipment or setting specified by the command word. This
@@ -1060,7 +1061,8 @@ class Autelis(object):
         """ PLACEHOLDER """
         return f"{num:X}".zfill(2)
 
-    def update_state_on_server(self, dev, state, value):
+    @staticmethod
+    def update_state_on_server(dev, state, value):
         """ PLACEHOLDER """
         my_logger.debug(f"\t Updating Device: {dev.name}, State: {state}, Value: {value}")
         dev.updateStateOnServer(state, value=value)
